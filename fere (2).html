@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<head>
+  <style>
+  html{
+  scroll-behavior :smooth;
+} 
+
+section{
+    height:100vh;
+    padding:50px;
+}
+#home{background:lightblue;}
+#about{background:lightgreen;}
+#contact{background:lightcoral;}
+#skill{background:linear-gradient(to right,grey,blue,purple);}
+#services{background:linear-gradient(to left,yellow,#203a43)}
+  
+#p3{background-color:lightblue;
+    font-size:20px;
+    font-style :italic;
+    text-align:center;
+
+
+}
+p2 {font-weight: bold;
+    font-size:40px;
+    text-align: center;
+}
+#wow{color:green;
+    font-size :20px;
+}
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skill">Skills </a>
+    <a href="#services">services </a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home"
+ <h1>WELCOME TO MY PORTFOLIO </h1><br>
+    <p2>I AM EMEBET WORKU </p2>
+  <p id="wow"</p></h1>
+  <script>
+  // Typing Animation (Infinite Loop)
+const text = "I am grade 11 - web design student";
+let i = 0;
+function typing() {
+  const el = document.getElementById("wow");
+
+  if (i < text.length) {
+    el.innerHTML += text.charAt(i);
+    i++;
+    setTimeout(typing, 100);
+  } else {
+    setTimeout(() => {
+      el.innerHTML = "";
+      i = 0;
+      typing();
+    }, 1500);
+    
+    setTimeout(() => {
+      el.innerHTML = "";
+      i = 0;
+      typing();
+    }, 1500);
+  }
+}
+
+typing();
+</script>
+
+</section>
+<section id="about">About
+<h1>jfhudff hfefuuhhu mopurfg jygjrfh</h1>
+</section>
+<section id="contact">Contact</section>
+<section id="skill">skill</section>
+<section id="services">Service </section>
+    
+<!-- FONT AWESOME -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!--about section-->
+""
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+nav{
+    background:#e60033;
+    padding:15px;
+    text-align:right;
+}
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* SECTION */
+.container{
+    display:flex;
+    justify-content:space-between;
+    padding:50px;
+    background:#1f2430;
+    color:white;
+}
+
+/* LEFT FORM */
+.form-box{
+    width:50%;
+}
+.form-box input,
+.form-box textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    outline:none;
+    background:#eee;
+}
+.form-box textarea{
+    height:200px;
+}
+
+.form-box button{
+    background:#e60033;
+    color:white;
+    padding:12px 20px;
+    border:none;
+    cursor:pointer;
+    margin-top:10px;
+}
+.form-box button:hover{
+    background:#ff1a4d;
+}
+
+/* RIGHT INFO */
+.info-box{
+    width:40%;
+    padding-left:30px;
+}
+
+.info-box p{
+    margin-bottom:10px;
+}
+
+.info{
+    margin:15px 0;
+}
+
+/* ICON STYLE */
+.info i{
+    margin-right:10px;
+    color:#e60033;
+}
+
+/* SOCIAL ICONS */
+.social i{
+    margin-right:15px;
+    font-size:20px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.social i:hover{
+    color:#e60033;
+}
+</style>
+
+<!-- CONTACT SECTION -->
+<div class="container">
+
+    <!-- LEFT -->
+    <div class="form-box">
+        <input type="text" placeholder="your subject">
+        <textarea placeholder="message"></textarea>
+        <button>Send Message</button>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="info-box">
+        <p>please contact and support me, just send your subjects and let me hear you!</p>
+
+        <div class="info">
+            <p><i class="fas fa-map-marker-alt"></i> Address</p>
+        </div>
+
+        <div class="info">
+            <p><i class="fas fa-phone"></i> +251 945 11 01 51</p>
+        </div>
+
+        <div class="info">
+            <p><i class="fas fa-envelope"></i> contact@email.com</p>
+        </div>
+
+        <!-- SOCIAL -->
+        <div class="social">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+
+</body>
+</html>
+  
